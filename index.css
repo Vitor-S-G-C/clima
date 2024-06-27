@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    background-image: url(backgroundgif.gif);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+}
+
+img {
+    width: 2rem;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+
+
+}
+
+.container {
+    width: 50vh;
+}
+
+input {
+    outline: none;
+    flex: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1.125rem;
+}
+
+button {
+    border: none;
+    width: 6rem;
+    background-color: rgb(104, 104, 246);
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(43, 62, 171);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.condition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.condition img {
+    width: 4rem;
+}
+
+#info {
+    position: relative;
+    padding-top: 2rem;
+    left: -2.5rem;
+}
+
+.city {
+    position: absolute;
+    top: 0;
+    right: 8rem;
+    margin-top: 1.5rem;
+}
+
+.details {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.details div:nth-child(2) {
+    border-left: 1px solid #fff;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card i {
+    font-size: 1rem;
+}

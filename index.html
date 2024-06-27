@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <form id="weatherForm">
+                <input type="text" placeholder="Digite sua Cidade">
+                <button type="submit">Buscar</button>
+            </form>
+            <div id="info">
+                <h1 id="temperature">33°C</h1>
+                <div class="condition">
+                    <img id="weatherIcon" src="https://openweathermap.org/img/wn/04n.png" alt="Condição do tempo">
+
+                    <span id="weatherDescription">Nublado</span>
+                </div>
+                <div class="city">
+                    <span id="cityName">Juiz de Fora, BR</span>
+                    <img id="countryFlag" src="https://flagcdn.com/br.svg" alt="Bandeira dos paises">
+                </div>
+                <div class="details">
+                    <div class="card">
+                        <i class="ph ph-wind"></i>
+                        <div>
+                            <strong>Vento</strong>
+                            <strong id="windSpeed">10 KM/h</strong>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="ph ph-drop-half"></i>
+                        <div>
+                            <strong>Umidade</strong>
+                            <strong id="humidity">67%</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
